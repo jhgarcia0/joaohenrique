@@ -22,5 +22,15 @@ p{
     text-align: center;
 }
 a{
+    cursor:crosshair;
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
     text-decoration: none;
+}
+a:hover, a:active {
+    background-color: green;
+    color: white;
 }
