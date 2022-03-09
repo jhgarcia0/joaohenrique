@@ -26,11 +26,34 @@ a{
     background-color: white;
     color: black;
     border: 2px solid green;
-    padding: 10px 20px;
+    padding:10px 0px;
+    width: 120px;
     text-align: center;
     text-decoration: none;
+    border-radius:6px 0 0 6px;
+}
+#gitAnchor{
+    border-left:none;
+    border-radius:0 6px 6px 0;
 }
 a:hover, a:active {
     background-color: green;
     color: white;
+}
+@media screen and (max-width: 566px) {
+    #content-wrapper{
+        margin: 1rem;
+    }
+}
+@media screen and (max-width: 405px) {
+    a{
+        border-radius:6px 6px 0 0;
+    }
+    #gitAnchor{
+        border-radius:0 0 6px 6px;
+    }
+    #gitAnchor{
+        border-top:none;
+        border-left:2px solid green;
+    }
 }
