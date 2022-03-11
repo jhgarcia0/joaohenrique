@@ -30,11 +30,16 @@ a{
     width: 120px;
     text-align: center;
     text-decoration: none;
+}
+#cvAnchor{
     border-radius:6px 0 0 6px;
 }
 #gitAnchor{
-    border-left:none;
     border-radius:0 6px 6px 0;
+}
+#linkedinAnchor{
+    border-left:none;
+    border-right:none;
 }
 a:hover, a:active {
     background-color: green;
@@ -44,16 +49,28 @@ a:hover, a:active {
     #content-wrapper{
         margin: 1rem;
     }
-}
-@media screen and (max-width: 405px) {
     a{
-        border-radius:6px 6px 0 0;
+        width: 82px;
     }
-    #gitAnchor{
-        border-radius:0 0 6px 6px;
+}
+@media screen and (max-width: 415px) {
+    a{
+        width: 80%;
     }
-    #gitAnchor{
-        border-top:none;
-        border-left:2px solid green;
+    #cvAnchor
+    {
+        border-radius: 6px 6px 0 0;
+    }
+    #linkedinAnchor
+    {
+        border-top: none;
+        border-bottom: none;
+        border-left: 2px solid green;
+        border-right: 2px solid green;
+    }
+    #gitAnchor
+    {
+        border-radius: 0 0 6px 6px;
+
     }
 }
