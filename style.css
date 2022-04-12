@@ -45,7 +45,7 @@ a:hover, a:active {
     background-color: green;
     color: white;
 }
-@media screen and (max-width: 566px) {
+@media screen and (max-width: 720px) {
     #content-wrapper{
         margin: 1rem;
     }
