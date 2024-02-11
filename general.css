@@ -4,3 +4,16 @@
   text-justify: auto;
   font-family: "Roboto", sans-serif;
 }
+#home-icon{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+#home-icon>img{
+  width: 30px;
+  transition: 0.2s;
+}
+#home-icon>img:hover{
+  transition: 0.2s;
+  transform: scale(1.1);
+}
