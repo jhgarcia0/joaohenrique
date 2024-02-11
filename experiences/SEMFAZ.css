@@ -1,0 +1,17 @@
+body{
+    background-color: #f0f2f5;
+}
+@media screen and (max-width: 1120px){
+    #home-icon{
+        left:8%;
+        top:3%;
+    }
+    #container{
+        margin-top: 0!important;
+    }
+}
+@media screen and (max-width: 510px){
+    #home-icon{
+        left: 3%;
+    }
+}
